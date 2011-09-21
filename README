@@ -1,0 +1,11 @@
+This is a repository for all of my configurations files for my Arch Linux instal.
+
+Currently, only one of my machines is running Arch, but to make sure I do it correctly 
+from the begining I will be using a branch for each machine. So this branch is named
+after the machine these configuration files are for.
+
+For most of the configuration files the different branches will be identical. However,
+it is possible that for certain hardware issues (such as sound and bluetooth on this
+computer) a different configuration will be necessary. 
+
+Cheers
