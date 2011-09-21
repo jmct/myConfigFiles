@@ -14,3 +14,13 @@ runtime! archlinux.vim
 " Or better yet, read /usr/share/vim/vim72/vimrc_example.vim or the vim manual
 " and configure vim to your own liking!
 
+set nu!
+
+set nocompatible
+set incsearch
+set scrolloff=3
+set expandtab
+set shiftwidth=4
+set tabstop=4
+
+imap kj <esc>
