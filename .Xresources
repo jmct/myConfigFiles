@@ -6,7 +6,7 @@ URxvt*scrollBar:         false
 URxvt*secondaryscroll:   true
 URxvt*matcher.button:    1
 URxvt*cursorBlink:       true
-URxvt*cursorUnderline:   true
+URxvt*cursorUnderline:   false
 URxvt*cursorColor:       #868887
 URxvt*colorBD:           #b4927d
 !URxvt*colorUL:          #57956b
