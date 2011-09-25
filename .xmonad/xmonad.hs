@@ -12,8 +12,10 @@ main = do
         , layoutHook = avoidStruts $ layoutHook defaultConfig
         , logHook = dynamicLogWithPP xmobarPP
                     { ppOutput = hPutStrLn xmproc
-                    , ppTitle = xmobarColor "red" "" . shorten 50
+                    , ppTitle = xmobarColor "blue" "" . shorten 50
                     }
         , modMask = mod1Mask
         , terminal = "urxvt"
-        }
+        } `additionalKeys` myKeyBindings
+
+myKeyBindings = [((mod1Mask, xK_p), spawn "dmenu_run")]
