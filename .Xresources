@@ -18,7 +18,7 @@ URxvt*depth:             24
 URxvt*dynamicColors:     on
 
 Xft*dpi:                 96
-Xft*antialias:           false
+Xft*antialias:           true
 Xft*hinting:             full
 
 URxvt*mapAlert:          true
