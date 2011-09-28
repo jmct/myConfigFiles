@@ -3,4 +3,6 @@
 # /etc/rc.local: Local multi-user startup script.
 #
 
-echo "disable" > bluetooth
+echo "disable" > /proc/acpi/ibm/bluetooth
+echo profile > /sys/class/drm/card0/device/power_method
+echo auto > /sys/class/drm/card0/device/power_profile
