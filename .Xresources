@@ -19,7 +19,7 @@ URxvt*colorBD:           #b4927d
 !URxvt*colorUL:          #57956b
 URxvt*internalBorder:    3
 
-URxvt.transparent:       true
+URxvt*transparent:       true
 URxvt*allow_bold:        true
 URxvt*depth:             24
 URxvt*dynamicColors:     on
@@ -31,9 +31,9 @@ Xft*hinting:             full
 URxvt*mapAlert:          true
 URxvt*visualBell:        true
 URxvt*urgentOnBell:      true
-URxvt*inheritPixmap:     true
+!URxvt*inheritPixmap:     true
 !URxvt*tintColor:        #000000
-URxvt*shading:           88
+URxvt*shading:           30
 
 ! Colours
 URxvt*background:           #002b36
