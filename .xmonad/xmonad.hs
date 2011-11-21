@@ -14,7 +14,7 @@ main = do
                     { ppOutput = hPutStrLn xmproc
                     , ppTitle = xmobarColor "blue" "" . shorten 50
                     }
-        , modMask = mod1Mask
+        , modMask = mod4Mask
         , terminal = "urxvt"
         } `additionalKeys` myKeyBindings
 
