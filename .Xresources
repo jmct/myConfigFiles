@@ -7,8 +7,8 @@
 
 URxvt*title:             urxvt
 URxvt*termName:          rxvt-256color
-URxvt*background:        #171717
-URxvt*foreground:        #7e8082
+!URxvt*background:        #171717
+!URxvt*foreground:        #7e8082
 URxvt*scrollBar:         false
 URxvt*secondaryscroll:   true
 URxvt*matcher.button:    1
@@ -29,12 +29,12 @@ Xft*antialias:           true
 Xft*hinting:             full
 
 URxvt*mapAlert:          true
-URxvt*visualBell:        true
+URxvt*visualBell:        false
 URxvt*urgentOnBell:      true
 !URxvt*inheritPixmap:     true
 !URxvt*tintColor:        #000000
 URxvt*shading:           30
-
+URxvt*fading:            40
 ! Colours
 URxvt*background:           #002b36
 URxvt*foreground:           #657b83
