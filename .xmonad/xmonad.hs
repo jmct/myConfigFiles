@@ -18,4 +18,4 @@ main = do
         , terminal = "urxvt"
         } `additionalKeys` myKeyBindings
 
-myKeyBindings = [((mod1Mask, xK_p), spawn "dmenu_run")]
+myKeyBindings = [((mod4Mask, xK_p), spawn "dmenu_run")]
