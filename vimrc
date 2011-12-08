@@ -23,6 +23,11 @@ set expandtab
 set shiftwidth=4
 set tabstop=4
 
-syntax on
+syntax enable
+
+if has('gui_running')
+    colorscheme solarized
+    set background=dark
+endif
 
 imap kj <esc>
