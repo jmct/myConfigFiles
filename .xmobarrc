@@ -8,7 +8,7 @@ Config { font = "-misc-fixed-*-*-*-*-10-*-*-*-*-*-*-*"
                     , Run Cpu ["-L","3","-H","50","--normal","green","--high","red"] 10
                     , Run Memory ["-t","Mem: <usedratio>%"] 10
                     , Run DiskU [("/", "<used>/<size>")] ["-L", "20", "-H", "50", "-m", "1", "-p", "3"] 20
-                    , Run BatteryP ["BAT1"] ["-t", "Bat: <acstatus> (<left>%)", "--", "-c", "energy_full"] 600 
+                    , Run BatteryP ["BAT1"] ["-t", "<acstatus> (<left>%)", "--", "-c", "energy_full", "-f", "ACAD/online", "-O", "AC", "-o", "Bat"] 600 
                     , Run Swap [] 10
                     , Run Com "uname" ["-s","-r"] "" 36000
                     , Run Date "%a %b %_d %Y %H:%M:%S" "date" 10
