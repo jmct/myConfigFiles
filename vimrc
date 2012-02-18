@@ -23,11 +23,15 @@ set expandtab
 set shiftwidth=4
 set tabstop=4
 
+<<<<<<< HEAD
 syntax enable
 
 if has('gui_running')
     colorscheme solarized
     set background=dark
 endif
+=======
+syntax on
+>>>>>>> 0cfe96dae53c8d0445148f57ab6768b33a02a102
 
 imap kj <esc>
