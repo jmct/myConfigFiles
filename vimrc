@@ -31,4 +31,6 @@ if has('gui_running')
 endif
 syntax on
 
+set textwidth=80
+
 imap kj <esc>
