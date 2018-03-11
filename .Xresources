@@ -5,6 +5,8 @@
 ! http://pod.tst.eu/http://cvs.schmorp.de/rxvt-unicode/doc/rxvt.1.pod
 !-------------------------------------------------------------------------------
 
+URxvt.font: xft:Source Code Pro:size=16
+
 URxvt*title:             urxvt
 URxvt*termName:          rxvt-256color
 !URxvt*background:        #171717
@@ -21,7 +23,7 @@ URxvt*internalBorder:    3
 
 URxvt*transparent:       true
 URxvt*allow_bold:        true
-URxvt*depth:             24
+URxvt*depth:             32
 URxvt*dynamicColors:     on
 
 Xft*dpi:                 96
@@ -38,7 +40,7 @@ URxvt*fading:            40
 URxvt*fadeColor:            #002b36
 
 URxvt*foreground:     #DDDDDD
-URxvt*background:     #121212
+URxvt*background:     rgba:0000/0000/0000/cccc
 !black
 URxvt*color0:         #353535
 URxvt*color8:         #666666

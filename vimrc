@@ -26,8 +26,8 @@ set tabstop=4
 syntax enable
 
 if has('gui_running')
-    colorscheme solarized
-    set background=dark
+    set guifont=Monospace\ 16
+    colorscheme desert
 endif
 
 imap kj <esc>
